@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="238.884064">
+<testcase classname="Automate and Verification of  Affiliate module" name="Verify Delete affiliate functionality so that user can delete the unwanted and inappropriate records from the Affiliate list." time="51.456144">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given User is on Affiliate page.............................................passed
+When User clicks on Create button...........................................passed
+When User enters and save user details as "Alex","Solankhi","alexs@gmail.com","63436756","alex1","alex1","Room no 602","Goregaon","421200","India","Maharashtra" and "Alexa".passed
+And user enters and save second user details as "Dipti","Bhandari","dipti@gmail.com","6337822","dipz","dipz","Room no 004","Shahad","421304","India","Maharashtra" and "Dipti".passed
+When User click on the checkbox of new created record and delete record.....passed
+Then success message is displayed...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Automate and Verify Filter Functionality by entering all the filter input  fields so that user can retrieve the records as per required." time="16.543647">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given User is on Affiliate Page.............................................passed
+When User enters Affiliate name "Ajit Singh" and status as "Enabled"........passed
+When User enters "2021-09-04","ajit@gmail.com" and "Yes"....................passed
+And click on filter button..................................................passed
+Then user gets the details of required Affiliate............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Automate and Verify whether Filter Functionality works by entering one or two filter fields and does validation" time="14.84299">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given User enters name "Nimisha Bhoir" and "nimishavbhoir@gmail.com"........passed
+And Click on Filter button..................................................passed
+Then User gets the details of required affiliates...........................passed
+And user enters affilate name not present in database.......................passed
+Then user gets appropriate message on it....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Automate and verify Create Affilate Page so that admin is able to create affilate records" time="26.750054">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given User Clicks on create button..........................................passed
+When User enters firstname as"Manoj" and "Mishra"...........................passed
+When User enters email as "manojmishra@gmail.com" and "6416397".............passed
+When user enters password as "manoj" and "manoj"............................passed
+When user enters address details as "Shastri Ngar Kurla East" and "Kurla"...passed
+When user enters postalcode as "421200" and "India".........................passed
+When user enters state as "Goa".............................................passed
+When user clicks on payment details tab.....................................passed
+And user enters payee name as "Manoj".......................................passed
+When user clicks on save button.............................................passed
+Then user will get success message on saving................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Verify Edit Affiliate Page" time="20.074366">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given when user clicks on Edit button.......................................passed
+When user enter name as "Chinu" and "chinmaya@gmail.com" and clicks on Save.passed
+Then User is able to see success message on modification....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Verify Pagination of the website" time="28.260571">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given user is navigated to the Affiliates page..............................passed
+When user creates the record for an affiliate with details as "Gauri","Patil","gauri@gmail.com","7845532437","gauri","gauri","G02,Kanifnath Bldg Kalyan West","Kalyan","421301","India","Maharashtra" and "Gauri".passed
+Then the user should be able to see modification of the total record number.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Automate and verify Sorting functionality so that user can easily verify and access the records and for increasing readability." time="12.092302">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given user is on current Affiliate page.....................................passed
+When user clicks on sort list dropdown......................................passed
+Then user is able to see the record in sorted manner........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Automate and verify that whether user can create a new record by entering invalid credentials" time="27.173249">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:87)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:96)&#13;&#10;&#9;at StepDefination.PracAff.the_user_should_be_able_to_see_whether_new_record_is_added_or_not(PracAff.java:1121)&#13;&#10;&#9;at ✽.the user should be able to see whether new record is added or not.(file:src/test/java/Features/prac.feature:90)&#13;&#10;"><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given user is navigated to the Affiliates page of webssite..................passed
+When user creates the record for an affiliate with details as follows "Eli123","Muth1","eli@gmail.com","36e8db98","elio","elio","G02 ,ABC rd","Nashik","42130wed","India","Maharashtra" and "Eli".passed
+Then the user should be able to see whether new record is added or not......failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at StepDefination.PracAff.the_user_should_be_able_to_see_whether_new_record_is_added_or_not(PracAff.java:1121)
+	at ✽.the user should be able to see whether new record is added or not.(file:src/test/java/Features/prac.feature:90)
+]]></failure>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Automate and verify the affiliate records are getting approved or not so that user can retrieve data faster" time="15.122375">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given user is on the Affiliate record page..................................passed
+When user approves one record...............................................passed
+Then the user is able to see that approved Affiliate list gets updated......passed
+]]></system-out>
+</testcase>
+<testcase classname="Automate and Verification of  Affiliate module" name="Automate and verify that whether user gets proper validation message on leaving the input fields blank" time="26.568366">
+<system-out><![CDATA[Given User navigates to Uniform website.....................................passed
+And User enters  username as "admin" and password as "admin@123"............passed
+When User clicks on Login button............................................passed
+When User gets success message..............................................passed
+When User is on Dashboard page of application...............................passed
+And User clicks on Affiliate submenu........................................passed
+Then user should be navigated to Affiliate page.............................passed
+Given user is navigated to the Affiliates page of webssites.................passed
+When user creates the record for an affiliate with details as follows as "Zeba","Ali","zeba@gmail.com","","zeba","zeba","KFKFK","Pune","432101","India","Maharashtra" and "Zeba".passed
+Then the user should be able to see whether validation message is displayed or not..passed
+]]></system-out>
+</testcase>
+</testsuite>

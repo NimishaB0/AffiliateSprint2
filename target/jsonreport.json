@@ -1,0 +1,2270 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2627785800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185518900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2030956400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5909900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3659900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3917510700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5570800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:02:25.455Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2252498400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify Delete affiliate functionality so that user can delete the unwanted and inappropriate records from the Affiliate list.",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;verify-delete-affiliate-functionality-so-that-user-can-delete-the-unwanted-and-inappropriate-records-from-the-affiliate-list.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 723567900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46883400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Affiliate page",
+            "match": {
+              "location": "PracAff.user_is_on_Affiliate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1739279100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on Create button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Create_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15499568400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters and save user details as \"Alex\",\"Solankhi\",\"alexs@gmail.com\",\"63436756\",\"alex1\",\"alex1\",\"Room no 602\",\"Goregaon\",\"421200\",\"India\",\"Maharashtra\" and \"Alexa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alex\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Solankhi\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"alexs@gmail.com\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"63436756\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"alex1\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"alex1\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"Room no 602\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"Goregaon\"",
+                  "offset": 114
+                },
+                {
+                  "val": "\"421200\"",
+                  "offset": 125
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 134
+                },
+                {
+                  "val": "\"Maharashtra\"",
+                  "offset": 142
+                },
+                {
+                  "val": "\"Alexa\"",
+                  "offset": 160
+                }
+              ],
+              "location": "PracAff.user_enters_and_save_user_details_as_and(String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16691783200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters and save second user details as \"Dipti\",\"Bhandari\",\"dipti@gmail.com\",\"6337822\",\"dipz\",\"dipz\",\"Room no 004\",\"Shahad\",\"421304\",\"India\",\"Maharashtra\" and \"Dipti\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dipti\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"Bhandari\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"dipti@gmail.com\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"6337822\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"dipz\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"dipz\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"Room no 004\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"Shahad\"",
+                  "offset": 119
+                },
+                {
+                  "val": "\"421304\"",
+                  "offset": 128
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 137
+                },
+                {
+                  "val": "\"Maharashtra\"",
+                  "offset": 145
+                },
+                {
+                  "val": "\"Dipti\"",
+                  "offset": 163
+                }
+              ],
+              "location": "PracAff.user_enters_and_save_second_user_details_as_and(String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4338734600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User click on the checkbox of new created record and delete record",
+            "match": {
+              "location": "PracAff.user_click_on_the_checkbox_of_new_created_record_and_delete_record()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1381275700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "success message is displayed",
+            "match": {
+              "location": "PracAff.success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2334406200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153522900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1458291700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4312200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3016700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4061660900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3796300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:03:16.914Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1239885000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Automate and Verify Filter Functionality by entering all the filter input  fields so that user can retrieve the records as per required.",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;automate-and-verify-filter-functionality-by-entering-all-the-filter-input--fields-so-that-user-can-retrieve-the-records-as-per-required.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 725599400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7415100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on Affiliate Page",
+            "match": {
+              "location": "PracAff.user_is_on_Affiliate_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2256638000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters Affiliate name \"Ajit Singh\" and status as \"Enabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ajit Singh\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Enabled\"",
+                  "offset": 54
+                }
+              ],
+              "location": "PracAff.user_enters_Affiliate_name_and_status_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3351036900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User enters \"2021-09-04\",\"ajit@gmail.com\" and \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-09-04\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"ajit@gmail.com\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Yes\"",
+                  "offset": 46
+                }
+              ],
+              "location": "PracAff.user_enters_and(String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 491004900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on filter button",
+            "match": {
+              "location": "PracAff.click_on_filter_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452392400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user gets the details of required Affiliate",
+            "match": {
+              "location": "PracAff.user_gets_the_details_of_required_Affiliate()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2420490900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170455200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1542536400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3842500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2851700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3794142300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4027200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:03:33.457Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1220058300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Automate and Verify whether Filter Functionality works by entering one or two filter fields and does validation",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;automate-and-verify-whether-filter-functionality-works-by-entering-one-or-two-filter-fields-and-does-validation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 706362100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2239659900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User enters name \"Nimisha Bhoir\" and \"nimishavbhoir@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nimisha Bhoir\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"nimishavbhoir@gmail.com\"",
+                  "offset": 37
+                }
+              ],
+              "location": "PracAff.user_enters_name_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 668200300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click on Filter button",
+            "match": {
+              "location": "PracAff.click_on_Filter_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296204900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User gets the details of required affiliates",
+            "match": {
+              "location": "PracAff.user_gets_the_details_of_required_affiliates()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1707787100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enters affilate name not present in database",
+            "match": {
+              "location": "PracAff.user_enters_affilate_name_not_present_in_database()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65696100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user gets appropriate message on it",
+            "match": {
+              "location": "PracAff.user_gets_appropriate_message_on_it()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2343990200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156905300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1368393100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4254200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2925700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4083983900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5023100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:03:48.301Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1235071200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "Automate and verify Create Affilate Page so that admin is able to create affilate records",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;automate-and-verify-create-affilate-page-so-that-admin-is-able-to-create-affilate-records;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 738326500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1534066300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Clicks on create button",
+            "match": {
+              "location": "PracAff.user_Clicks_on_create_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2236674200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User enters firstname as\"Manoj\" and \"Mishra\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manoj\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Mishra\"",
+                  "offset": 36
+                }
+              ],
+              "location": "PracAff.user_enters_firstname_as_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2203262100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User enters email as \"manojmishra@gmail.com\" and \"6416397\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manojmishra@gmail.com\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"6416397\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_email_as_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2187903900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user enters password as \"manoj\" and \"manoj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manoj\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"manoj\"",
+                  "offset": 36
+                }
+              ],
+              "location": "PracAff.user_enters_password_as_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2214207800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user enters address details as \"Shastri Ngar Kurla East\" and \"Kurla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shastri Ngar Kurla East\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Kurla\"",
+                  "offset": 61
+                }
+              ],
+              "location": "PracAff.user_enters_address_details_as_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2227695400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user enters postalcode as \"421200\" and \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"421200\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 39
+                }
+              ],
+              "location": "PracAff.user_enters_postalcode_as_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1126715500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user enters state as \"Goa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Goa\"",
+                  "offset": 21
+                }
+              ],
+              "location": "PracAff.user_enters_state_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1094991700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user clicks on payment details tab",
+            "match": {
+              "location": "PracAff.user_clicks_on_payment_details_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1102141800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user enters payee name as \"Manoj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manoj\"",
+                  "offset": 26
+                }
+              ],
+              "location": "PracAff.user_enters_payee_name_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 818496400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "PracAff.user_clicks_on_save_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63792400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user will get success message on saving",
+            "match": {
+              "location": "PracAff.user_will_get_success_message_on_saving()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2407920800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156961000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1412105500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3954800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3822100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4074706900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4442900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:04:15.052Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1203947100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Verify Edit Affiliate Page",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;verify-edit-affiliate-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 710585600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2736459200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "when user clicks on Edit button",
+            "match": {
+              "location": "PracAff.when_user_clicks_on_Edit_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7301980200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user enter name as \"Chinu\" and \"chinmaya@gmail.com\" and clicks on Save",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chinu\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"chinmaya@gmail.com\"",
+                  "offset": 31
+                }
+              ],
+              "location": "PracAff.user_enter_name_as_and_and_clicks_on_Save(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57013700,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "User is able to see success message on modification",
+            "match": {
+              "location": "PracAff.user_is_able_to_see_success_message_on_modification()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2415643900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160595200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1422775400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4594400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2941600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4066114400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5622000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:04:35.126Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1251662800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "Verify Pagination of the website",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;verify-pagination-of-the-website;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 702438200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 54256000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "user is navigated to the Affiliates page",
+            "match": {
+              "location": "PracAff.user_is_navigated_to_the_Affiliates_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18137156000,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "user creates the record for an affiliate with details as \"Gauri\",\"Patil\",\"gauri@gmail.com\",\"7845532437\",\"gauri\",\"gauri\",\"G02,Kanifnath Bldg Kalyan West\",\"Kalyan\",\"421301\",\"India\",\"Maharashtra\" and \"Gauri\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gauri\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Patil\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"gauri@gmail.com\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"7845532437\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"gauri\"",
+                  "offset": 104
+                },
+                {
+                  "val": "\"gauri\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"G02,Kanifnath Bldg Kalyan West\"",
+                  "offset": 120
+                },
+                {
+                  "val": "\"Kalyan\"",
+                  "offset": 153
+                },
+                {
+                  "val": "\"421301\"",
+                  "offset": 162
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 171
+                },
+                {
+                  "val": "\"Maharashtra\"",
+                  "offset": 179
+                },
+                {
+                  "val": "\"Gauri\"",
+                  "offset": 197
+                }
+              ],
+              "location": "PracAff.user_creates_the_record_for_an_affiliate_with_details_as_and(String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36244200,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "the user should be able to see modification of the total record number",
+            "match": {
+              "location": "PracAff.the_user_should_be_able_to_see_modification_of_the_total_record_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2438802600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 146694800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1432836300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3838800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3598300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4090330900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5761800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:05:03.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1205688500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Automate and verify Sorting functionality so that user can easily verify and access the records and for increasing readability.",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;automate-and-verify-sorting-functionality-so-that-user-can-easily-verify-and-access-the-records-and-for-increasing-readability.",
+        "after": [
+          {
+            "result": {
+              "duration": 920630400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53510200,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user is on current Affiliate page",
+            "match": {
+              "location": "PracAff.user_is_on_current_Affiliate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1790125200,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "user clicks on sort list dropdown",
+            "match": {
+              "location": "PracAff.user_clicks_on_sort_list_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "user is able to see the record in sorted manner",
+            "match": {
+              "location": "PracAff.user_is_able_to_see_the_record_in_sorted_manner()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2486575500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 178634000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1679335600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4709900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4523200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3795430600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10098000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:05:15.480Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1255380900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 94,
+        "name": "Automate and verify that whether user can create a new record by entering invalid credentials",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;automate-and-verify-that-whether-user-can-create-a-new-record-by-entering-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 707050300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46320100,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "user is navigated to the Affiliates page of webssite",
+            "match": {
+              "location": "PracAff.user_is_navigated_to_the_Affiliates_page_of_webssite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15866000200,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "user creates the record for an affiliate with details as follows \"Eli123\",\"Muth1\",\"eli@gmail.com\",\"36e8db98\",\"elio\",\"elio\",\"G02 ,ABC rd\",\"Nashik\",\"42130wed\",\"India\",\"Maharashtra\" and \"Eli\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Eli123\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"Muth1\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"eli@gmail.com\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"36e8db98\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"elio\"",
+                  "offset": 109
+                },
+                {
+                  "val": "\"elio\"",
+                  "offset": 116
+                },
+                {
+                  "val": "\"G02 ,ABC rd\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"Nashik\"",
+                  "offset": 137
+                },
+                {
+                  "val": "\"42130wed\"",
+                  "offset": 146
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 157
+                },
+                {
+                  "val": "\"Maharashtra\"",
+                  "offset": 165
+                },
+                {
+                  "val": "\"Eli\"",
+                  "offset": 183
+                }
+              ],
+              "location": "PracAff.user_creates_the_record_for_an_affiliate_with_details_as_follows_and(String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:87)\r\n\tat org.junit.Assert.fail(Assert.java:96)\r\n\tat StepDefination.PracAff.the_user_should_be_able_to_see_whether_new_record_is_added_or_not(PracAff.java:1121)\r\n\tat ✽.the user should be able to see whether new record is added or not.(file:src/test/java/Features/prac.feature:90)\r\n",
+              "duration": 1138595100,
+              "status": "failed"
+            },
+            "line": 90,
+            "name": "the user should be able to see whether new record is added or not.",
+            "match": {
+              "location": "PracAff.the_user_should_be_able_to_see_whether_new_record_is_added_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2344500400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168547900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1399638200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4136400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3008700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4122192300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5462000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:05:42.660Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1304707000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 96,
+        "name": "Automate and verify the affiliate records are getting approved or not so that user can retrieve data faster",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;automate-and-verify-the-affiliate-records-are-getting-approved-or-not-so-that-user-can-retrieve-data-faster",
+        "after": [
+          {
+            "result": {
+              "duration": 698948800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43425300,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "user is on the Affiliate record page",
+            "match": {
+              "location": "PracAff.user_is_on_the_Affiliate_record_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3284156000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "user approves one record",
+            "match": {
+              "location": "PracAff.user_approves_one_record()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1743245600,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "the user is able to see that approved Affiliate list gets updated.",
+            "match": {
+              "location": "PracAff.the_user_is_able_to_see_that_approved_Affiliate_list_gets_updated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Automate and Verify user is able to Login into the website so that user can access the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2544977700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to Uniform website",
+            "match": {
+              "location": "PracAff.user_navigates_to_Uniform_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171533500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters  username as \"admin\" and password as \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"admin@123\"",
+                  "offset": 49
+                }
+              ],
+              "location": "PracAff.user_enters_username_as_and_password_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1459166900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "PracAff.user_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4168000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets success message",
+            "match": {
+              "location": "PracAff.user_gets_success_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2549700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on Dashboard page of application",
+            "match": {
+              "location": "PracAff.user_is_on_Dashboard_page_of_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3852149100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Affiliate submenu",
+            "match": {
+              "location": "PracAff.user_clicks_on_Affiliate_submenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4224200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be navigated to Affiliate page",
+            "match": {
+              "location": "PracAff.user_should_be_navigated_to_Affiliate_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T12:05:57.782Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1202286700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.initilaization()"
+            }
+          }
+        ],
+        "line": 108,
+        "name": "Automate and verify that whether user gets proper validation message on leaving the input fields blank",
+        "description": "",
+        "id": "automate-and-verification-of--affiliate-module;automate-and-verify-that-whether-user-gets-proper-validation-message-on-leaving-the-input-fields-blank;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 704061700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookAff.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 40386900,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "user is navigated to the Affiliates page of webssites",
+            "match": {
+              "location": "PracAff.user_is_navigated_to_the_Affiliates_page_of_webssites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15920722200,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "user creates the record for an affiliate with details as follows as \"Zeba\",\"Ali\",\"zeba@gmail.com\",\"\",\"zeba\",\"zeba\",\"KFKFK\",\"Pune\",\"432101\",\"India\",\"Maharashtra\" and \"Zeba\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zeba\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"Ali\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"zeba@gmail.com\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"zeba\"",
+                  "offset": 101
+                },
+                {
+                  "val": "\"zeba\"",
+                  "offset": 108
+                },
+                {
+                  "val": "\"KFKFK\"",
+                  "offset": 115
+                },
+                {
+                  "val": "\"Pune\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"432101\"",
+                  "offset": 130
+                },
+                {
+                  "val": "\"India\"",
+                  "offset": 139
+                },
+                {
+                  "val": "\"Maharashtra\"",
+                  "offset": 147
+                },
+                {
+                  "val": "\"Zeba\"",
+                  "offset": 165
+                }
+              ],
+              "location": "PracAff.user_creates_the_record_for_an_affiliate_with_details_as_follows_as_and(String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 661681000,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "the user should be able to see whether validation message is displayed or not.",
+            "match": {
+              "location": "PracAff.the_user_should_be_able_to_see_whether_validation_message_is_displayed_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automate and Verification of  Affiliate module",
+    "description": "  I want to use this template for my feature file",
+    "id": "automate-and-verification-of--affiliate-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/prac.feature",
+    "tags": []
+  }
+]
